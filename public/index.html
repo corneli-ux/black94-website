@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Black94 is a platform built around people, creativity, opportunity, and community — posts, articles, a shop, real conversations, and anonymous chat, all in one app.">
+<title>Black94 — A platform built for people, not algorithms</title>
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a class="nav-brand" href="/">
+      <img src="/assets/badge-logo.png" alt="Black94">
+      <span class="gradient-text">BLACK94</span>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="#features">Features</a>
+      <a href="#philosophy">About</a>
+      <a href="#download">Download</a>
+      <a href="/privacy.html">Privacy</a>
+    </div>
+    <a class="nav-cta" href="#download">Get the app</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">&#9776;</button>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-glow"></div>
+  <div class="wrap">
+    <div class="hero-badge">
+      <img src="/assets/badge-logo.png" alt="">
+    </div>
+    <h1>A platform built for people, not algorithms.</h1>
+    <p class="subhead">
+      Black94 isn't just another app where you post photos or videos. It's a place for creators, entrepreneurs, artists, students, and everyone in between — to share, sell, message, and actually be heard.
+    </p>
+    <div class="hero-ctas">
+      <a class="btn-primary" href="#download">Get the app</a>
+      <a class="btn-secondary" href="#features">See what it can do</a>
+    </div>
+  </div>
+</section>
+
+<section id="features">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">What's inside</span>
+      <h2>Everything you need, none of the noise</h2>
+      <p>Every part of Black94 is built to help real conversations happen — not to maximize how long you stare at a screen.</p>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <div class="icon">📝</div>
+        <h3>Posts &amp; thoughts</h3>
+        <p>Share photos, quick thoughts, and GIFs with the people who actually follow you — no algorithm decides who sees it.</p>
+      </div>
+      <div class="card">
+        <div class="icon">📰</div>
+        <h3>Articles</h3>
+        <p>Write and read full articles when a post isn't enough room to say what you mean.</p>
+      </div>
+      <div class="card">
+        <div class="icon">💬</div>
+        <h3>Real conversations</h3>
+        <p>Comment, reply, like, and repost — built so a conversation stays a conversation, not just a scroll.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🛍️</div>
+        <h3>Your own Shop</h3>
+        <p>Sell products directly through your profile. No separate storefront app, no extra account.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🎭</div>
+        <h3>Anonymous Chat</h3>
+        <p>Sometimes you just want to talk without being known. Get matched with someone else who's around right now — both of you stay "Anon," always.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🔔</div>
+        <h3>Notifications that matter</h3>
+        <p>Real push notifications for likes, comments, follows, and messages — and full control over which ones you get.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="philosophy" id="philosophy">
+  <div class="wrap">
+    <span class="eyebrow">Why Black94</span>
+    <blockquote>
+      "Whether you're a creator, entrepreneur, artist, student, teacher, gamer, musician, photographer, filmmaker, writer, developer, or simply someone who wants to connect with others —
+      <span class="gradient-text">Black94 is built with you in mind.</span>"
+    </blockquote>
+  </div>
+</section>
+
+<section class="download" id="download">
+  <div class="wrap">
+    <h2>Join Black94</h2>
+    <p>Available now for Android.</p>
+    <div class="store-links">
+      <a class="store-link" href="#">
+        <span>📱</span>
+        <span>
+          Get it on
+          <span class="store-sub">Indus App Store</span>
+        </span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-inner">
+    <a class="footer-brand" href="/">
+      <img src="/assets/badge-logo.png" alt="">
+      <span class="gradient-text">BLACK94</span>
+    </a>
+    <div class="footer-links">
+      <a href="/privacy.html">Privacy Policy</a>
+      <a href="/terms.html">Terms of Service</a>
+      <a href="#features">Features</a>
+    </div>
+    <div class="footer-copy">&copy; 2026 Black94. All rights reserved.</div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('navToggle').addEventListener('click', function () {
+    document.getElementById('navLinks').classList.toggle('open');
+  });
+  document.querySelectorAll('.nav-links a').forEach(function (link) {
+    link.addEventListener('click', function () {
+      document.getElementById('navLinks').classList.remove('open');
+    });
+  });
+</script>
+
+</body>
+</html>
